@@ -87,7 +87,7 @@ The following request will attempt to create a message within a Conversation who
   }
 }
 ```
-Notification objects can be created using the notificaton customization definition that can be found at: [Push Notifications](https://developer.layer.com/docs/clients/introduction#notification-customization).
+Notification objects can be created using the notificaton customization definition that can be found at: [Push Notifications](https://developer.layer.com/docs/client/introduction#notification-customization).
 The following are possible responses:
 
 _ERROR_:
