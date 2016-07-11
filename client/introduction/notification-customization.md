@@ -24,7 +24,7 @@ Applications that require customization on a per recipient basis can do so by su
 |-----------------|---------|-------------|
 | **text**        | string  | The text to be displayed on the notification alert. On iOS, displayed on the lock screen or banner. On GCM, delivered in the push intent as advisory information. |
 | **sound**       | string  | The name of a sound to be played. On iOS, must exist in the main application bundle. On GCM, delivered in the push intent as advisory information. |
-| **recipients**  | array of objects  | OPTIONAL. Recipients and their customized notifications, where applicable.  |
+| **recipients**  | array of objects  | OPTIONAL. Recipients and their customized notifications.  |
 
 ```json
 {
@@ -77,6 +77,7 @@ The Layer Notification Service provides for advanced notification configuration 
 | **title-loc-args**    | title-loc-args  | title_loc_args  |
 | **loc-key**           | loc-key         | body_loc_key    |
 | **loc-args**          | loc-args        | body_loc_args   |
+| **action-loc-key**    | action-loc-key  | n/a             |
 | **launch-image**      | launch_image    | n/a             |
 | **data**              | data            | data            |
 
