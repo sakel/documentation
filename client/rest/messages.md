@@ -234,7 +234,7 @@ If using [deduplication](introduction#deduplication), you may get a conflict if 
 
 ## Push Notifications
 
-Layer provides extensive support for Push Notifications on both iOS (APNS) and Android (GCM). Pushes are delivered to devices when Messages are sent using the `notification` parameter.  The possible values for the `notification` object are described at: [Push Notifications](https://developer.layer.com/docs/clients/introduction#notification-customization).
+Layer provides extensive support for Push Notifications on both iOS (APNS) and Android (GCM). Pushes are delivered to devices when Messages are sent using the `notification` parameter.  The possible values for the `notification` object are described at: [Push Notifications](https://developer.layer.com/docs/client/introduction#notification-customization).
 
 Note that values for iOS badge counts cannot be provided because the pushes are fanned out to all participants.
 
